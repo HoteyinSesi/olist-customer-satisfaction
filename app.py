@@ -3,8 +3,8 @@ import pandas as pd
 import numpy as np
 import joblib
 import pickle
-model = joblib.load(r'C:\Users\pc\Downloads\Olist project\best_model.pkl')
-scaler = joblib.load(r'C:\Users\pc\Downloads\Olist project\scaler.pkl')
+model = joblib.load('best_model.pkl')
+scaler = joblib.load('scaler.pkl')
 #sidebar
 with st.sidebar:
     st.markdown("### About This App")
